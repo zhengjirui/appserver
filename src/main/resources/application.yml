@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: prod
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://rm-uf687z4y4wer0ipgj.mysql.rds.aliyuncs.com/gouwubang_app_server_888?autoCommit=true&useUnicode=true&autoReconnect=true&characterEncoding=utf-8
+#    data-username: gouwubang_app_88
+#    data-password: GouwubangAppLetaotao888com
+#  jpa:
+#    hibernate:
+#      ddl-auto: create
+#    show-sql: true
+
+baichuanUrl: http://gw.api.taobao.com/router/rest
+baichuanAppKey: 24920169
+baichuanAppSecret: fa5508edae9abaf299055f4ef89219f2

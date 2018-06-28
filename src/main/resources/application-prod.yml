@@ -1,0 +1,26 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /app
+  tomcat:
+    uri-encoding: UTF-8
+
+spring:
+  http:
+    encoding:
+      force: true
+      charset: utf-8
+      enabled: true
+  devtools:
+    restart:
+      enabled: true
+      additional-paths: src/main/java
+      additional-exclude:
+      exclude: WEB-INF/**
+
+defuserinfo:
+  name: zhengjirui
+  nick: jirui
+  age: 25
+  sex: nan
+  address: "${defuserinfo.name}"
